@@ -64,9 +64,8 @@ console.log(longNameAnimals);
 
 let ages = [18, 25, 37, 12, 30];
 let sum = 0;
-const totalAges = ages.map((e) => {
+const totalAges = ages.forEach((e) => {
   sum += e;
-  return sum;
 });
 console.log(sum);
 
